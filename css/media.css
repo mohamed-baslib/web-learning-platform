@@ -1,0 +1,147 @@
+/* Mobile */
+
+@media (max-width: 799px) {
+  body {
+    font-size: 12px;
+  }
+
+  /* header */
+
+  header {
+    padding: 1em;
+  }
+  .logo a {
+    padding: 0px 10px;
+  }
+
+  header .logo a:hover span {
+    font-size: 0em;
+  }
+
+  nav {
+    width: 40%;
+  }
+
+  nav a {
+    padding: 0;
+    font-size: 1.2em;
+  }
+
+  .search {
+    width: 6em;
+    padding: 5px;
+  }
+
+  .btn {
+    padding: 5px;
+    font-size: 1.2em;
+  }
+
+  /* main section*/
+  .img-main img {
+    width: 20em;
+  }
+
+  .main-title {
+    font-size: 1.8em;
+    letter-spacing: 0px;
+  }
+
+  .container-main .disc {
+    width: 9.5em;
+    text-align: center;
+    font-size: 1.2em;
+  }
+
+  .main-btn {
+    flex-direction: column;
+  }
+
+  .main-btn .btn {
+    text-align: center;
+    margin-bottom: 1em;
+    margin-left: 0%;
+  }
+
+  .main-btn a {
+    font-size: 18px;
+  }
+
+  .statics {
+    width: 15em;
+  }
+  .stat h5 {
+    font-size: 15px;
+  }
+
+  /* title section  */
+
+  .title {
+    font-size: 2em;
+  }
+
+  /* about section */
+  .about .box p {
+    font-size: 1.3em;
+    line-height: 25px;
+  }
+
+  .contact {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .topic {
+    width: 100%;
+    margin-bottom: 5em;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+  body {
+    font-size: 14px;
+  }
+
+  /* header */
+
+  nav {
+    width: 40%;
+  }
+
+  .search {
+    width: 8em;
+    padding: 9px 15px;
+  }
+
+  .btn {
+    padding: 7px 10px;
+  }
+
+  /* main-section */
+  .img-main img {
+    width: 27em;
+  }
+
+  .main-title {
+    font-size: 3em;
+    letter-spacing: 0px;
+  }
+
+  /* title section */
+
+  .title {
+    font-size: 2.5em;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1300px) {
+  body {
+    font-size: 15px;
+  }
+
+  /* header */
+  nav {
+    width: 45%;
+  }
+
+}
