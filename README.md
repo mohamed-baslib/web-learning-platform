@@ -49,7 +49,7 @@ The platform includes **4 pages**:
 
 ## 🔗 Live Preview (GitHub Pages)
 
-🔍 [Click here to view the site online]([https://yourusername.github.io/web-learning-platform/](https://mohamed-baslib.github.io/web-learning-platform/))  
+🔍 [Click here to view the site online](https://mohamed-baslib.github.io/web-learning-platform/)  
 
 
 ---
