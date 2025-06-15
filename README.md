@@ -49,7 +49,7 @@ The platform includes **4 pages**:
 
 ## 🔗 Live Preview (GitHub Pages)
 
-🔍 [Click here to view the site online](https://yourusername.github.io/web-learning-platform/)  
+🔍 [Click here to view the site online]([https://yourusername.github.io/web-learning-platform/](https://mohamed-baslib.github.io/web-learning-platform/))  
 
 
 ---
@@ -66,6 +66,11 @@ The platform includes **4 pages**:
 This is a self-built project created without any external templates, frameworks, or JavaScript libraries — just pure **effort**, **trial**, and **learning**. It's meant as a **foundation** for more advanced projects to come.
 
 ---
+
+## 📸 Screenshots
+
+
+![Home Page Screenshot](image/screenshot.png)
 
 
 ---
