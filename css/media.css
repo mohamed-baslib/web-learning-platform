@@ -1,8 +1,8 @@
 /* Mobile */
 
-@media (max-width: 799px) {
+@media (max-width: 599px) {
   body {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   /* header */
@@ -10,36 +10,102 @@
   header {
     padding: 1em;
   }
-  .logo a {
-    padding: 0px 10px;
+
+  .logo {
+    margin-right: 1em;
   }
 
-  header .logo a:hover span {
-    font-size: 0em;
+  .logo a {
+    padding: 0px;
+    font-size: 1.5em;
   }
 
   nav {
-    width: 40%;
+    width: 50%;
   }
 
   nav a {
     padding: 0;
-    font-size: 1.2em;
+    font-size: 1em;
   }
 
   .search {
-    width: 6em;
-    padding: 5px;
+    display: none;
   }
 
   .btn {
-    padding: 5px;
-    font-size: 1.2em;
+    padding: 3px;
+    font-size: 1em;
+  }
+
+  /* login form */
+  .login-form {
+    padding: 3em;
+    width: 27em;
+    height: 20em;
+  }
+
+  .choice-login {
+    padding: 2px;
+    margin-bottom: 0;
+  }
+
+  .login-form .img-login {
+    width: 50%;
+    height: 100%;
+  }
+
+  .choice-login a {
+    font-size: 9px;
+  }
+
+  .login-form form {
+    margin-top: 1em;
+    margin-right: 1em;
+  }
+
+  .login-with hr {
+    width: 15px;
+  }
+
+  .login-with p {
+    font-size: 9px;
+  }
+
+  .social-icons img {
+    width: 1.5em;
+    margin-right: 7px;
+  }
+
+  .social-icons {
+    margin-left: 0em;
+  }
+
+  /* login  */
+  .log .inp {
+    font-size: 8px;
+    width: 10em;
+    padding: 1px;
+  }
+
+  .log input[type="submit"] {
+    padding: 0px;
+    width: 5em;
+    font-size: 9px;
+  }
+
+  .log h4 {
+    font-size: 12px;
+    margin: 8px;
   }
 
   /* main section*/
+  .main {
+    min-height: fit-content;
+  }
+
   .img-main img {
-    width: 20em;
+    width: 15em;
   }
 
   .main-title {
@@ -55,35 +121,64 @@
 
   .main-btn {
     flex-direction: column;
+    margin: 2em;
   }
 
   .main-btn .btn {
     text-align: center;
     margin-bottom: 1em;
     margin-left: 0%;
+    padding: 0.5em;
+    width: 8em;
   }
 
   .main-btn a {
-    font-size: 18px;
+    font-size: 11px;
+    padding: 0.5em 0;
+    width: 8em;
+    text-align: center;
   }
 
   .statics {
-    width: 15em;
+    width: 14em;
+    padding: 0.3em 3px;
   }
   .stat h5 {
-    font-size: 15px;
+    font-size: 10px;
   }
 
+  section {
+    min-height: 25em;
+  }
   /* title section  */
 
   .title {
     font-size: 2em;
   }
 
+  /* artical section */
+  .articles .card {
+    height: 16.5em;
+  }
+
+  .start {
+    font-size: 2em;
+  }
+
   /* about section */
   .about .box p {
-    font-size: 1.3em;
-    line-height: 25px;
+    font-size: 1em;
+    line-height: 19px;
+  }
+
+  .about .box {
+    padding: 1em;
+  }
+
+  .box .btn {
+    font-size: 1em;
+    width: 7em;
+    padding: 0.3em;
   }
 
   .contact {
@@ -95,43 +190,242 @@
     width: 100%;
     margin-bottom: 5em;
   }
+
+  .item h4 {
+    font-size: 1.5em;
+  }
+
+  .item a {
+    font-size: 1em;
+  }
+
+  /* courses page */
+  .cards-courses {
+    justify-content: center;
+  }
 }
 
-@media (min-width: 800px) and (max-width: 1000px) {
+@media (min-width: 600px) and (max-width: 799px) {
   body {
     font-size: 14px;
   }
 
   /* header */
+  header {
+    padding: 1.5em;
+  }
+
+  .logo {
+    margin-right: 1em;
+  }
+
+  .logo a {
+    padding: 2px 10px;
+    font-size: 1.6em;
+  }
 
   nav {
-    width: 40%;
+    width: 50%;
+  }
+
+  nav a {
+    padding: 0;
+    font-size: 1.2em;
   }
 
   .search {
-    width: 8em;
-    padding: 9px 15px;
+    display: none;
   }
 
   .btn {
-    padding: 7px 10px;
+    padding: 5px;
+    font-size: 1.2em;
   }
 
-  /* main-section */
+  /* login form */
+  .login-form {
+    padding: 3em;
+    width: 30em;
+    height: 20em;
+  }
+
+  .choice-login {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+
+  .login-form .img-login {
+    width: 50%;
+    height: 100%;
+  }
+
+  .choice-login a {
+    font-size: 14px;
+  }
+
+  .login-form form {
+    margin-top: 1em;
+    margin-right: 1em;
+  }
+
+  .close {
+    right: 80px;
+    top: 40px;
+    margin: 0;
+  }
+
+  .login-with hr {
+    width: 30px;
+  }
+
+  .login-with p {
+    font-size: 12px;
+  }
+
+  .social-icons img {
+    width: 1.5em;
+    margin-right: 7px;
+  }
+
+  .social-icons {
+    margin-left: 0em;
+  }
+
+  /* login  */
+  .log .inp {
+    font-size: 10px;
+    width: 14em;
+    padding: 3px;
+  }
+
+  .log input[type="submit"] {
+    padding: 3px;
+    width: 6em;
+    font-size: 14px;
+  }
+
+  .log h4 {
+    font-size: 16px;
+    margin: 10px;
+  }
+
+  /* main section*/
+  .main {
+    min-height: fit-content;
+  }
+
   .img-main img {
-    width: 27em;
+    width: 18em;
   }
 
   .main-title {
-    font-size: 3em;
+    font-size: 1.8em;
     letter-spacing: 0px;
   }
 
-  /* title section */
+  .container-main .disc {
+    width: 9.5em;
+    text-align: center;
+    font-size: 1.2em;
+  }
+
+  .main-btn {
+    flex-direction: column;
+    margin: 2em;
+  }
+
+  .main-btn .btn {
+    text-align: center;
+    margin-bottom: 1em;
+    margin-left: 0%;
+    padding: 0.5em;
+    width: 8em;
+  }
+
+  .main-btn a {
+    font-size: 16px;
+    padding: 0.6em 4px;
+    width: 9em;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .statics {
+    width: 14em;
+    padding: 0.3em 3px;
+  }
+  .stat h5 {
+    font-size: 10px;
+  }
+
+  section {
+    min-height: 25em;
+  }
+  /* title section  */
 
   .title {
     font-size: 2.5em;
   }
+
+  /* about section */
+  .about .box p {
+    font-size: 1.2em;
+    line-height: 30px;
+  }
+
+  .about .box {
+    padding: 2em;
+  }
+
+  .box .btn {
+    font-size: 1.1em;
+    width: 7em;
+    padding: 0.6em;
+  }
+
+  .contact {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .topic {
+    width: 100%;
+    margin-bottom: 5em;
+  }
+
+  .item h4 {
+    font-size: 1.8em;
+  }
+
+  .item a {
+    font-size: 1.3em;
+  }
+
+  /* courses page */
+  .cards-courses {
+    justify-content: center;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 999px) {
+  body {
+    font-size: 13px;
+  }
+
+  /* header */
+
+  .search {
+    display: none;
+  }
+
+  /* main section */
+  .main-title {
+    font-size: 3em;
+  }
+
+  /* .main {
+    min-height: 50vh;
+  } */
 }
 
 @media (min-width: 1000px) and (max-width: 1300px) {
@@ -143,5 +437,4 @@
   nav {
     width: 45%;
   }
-
 }

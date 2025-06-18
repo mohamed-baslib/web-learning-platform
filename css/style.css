@@ -74,7 +74,7 @@ nav a:hover {
 }
 .active {
   opacity: 1;
-  border-bottom: 5px solid #5823ca;
+  border-bottom: 3px solid #5823ca;
 }
 
 /* log in butttn */
@@ -114,6 +114,7 @@ nav a:hover {
 .login-form {
   background-color: #efecf3;
   position: relative;
+  top: 2em;
   box-shadow: 0 0 3px 0px #7d66ec;
   border-radius: 80px;
   padding: 6em;
@@ -245,9 +246,7 @@ nav a:hover {
 
 .close {
   position: absolute;
-  right: 0;
-  top: 0;
-  width: 2em;
+  width: 1em;
   margin: 2em 14em 0 0;
   text-decoration: none;
   color: #150f3d;
@@ -291,17 +290,16 @@ nav a:hover {
 
 /* Section main */
 section {
-  padding: 3.125em 6.125em;
-  min-height: 50vh;
+  padding: 3.125em 4.125em;
   overflow: hidden;
 }
 .main {
   display: flex;
   justify-content: space-around;
   padding: 3.125em;
-  min-height: 100vh;
   color: #fff;
   margin-top: 4em;
+  min-height: 40em;
 }
 
 .container-main {
@@ -399,10 +397,6 @@ section {
 
 /* courses section */
 
-.sec {
-  height: 5em;
-}
-
 .title-section {
   background-color: #ffffff;
 }
@@ -412,6 +406,10 @@ section {
   font-size: 3em;
   text-align: center;
   padding: 0.5em;
+}
+
+.courses {
+  min-height: 25em;
 }
 
 .content {
@@ -489,6 +487,8 @@ section {
   padding: 0;
   width: 28em;
   height: 16.5em;
+  cursor: pointer;
+  margin: 20px 10px;
 }
 
 .start {
